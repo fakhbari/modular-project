@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "url": "http://localhost:3001",
+      "scope": "customer",
+      "module": "./Module",
+      "icon": "SupervisorAccountOutlined",
+      "title": "customer",
+      "id": "d6a8"
+    }
+  ]
+}
