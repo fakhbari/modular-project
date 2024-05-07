@@ -6,6 +6,7 @@
       "module": "./Module",
       "service": "./Services",
       "icon": "SupervisorAccountOutlined",
+      "name": "customer",
       "title": "مشتریان",
       "id": "d6a8"
     },
@@ -13,6 +14,7 @@
       "url": "http://localhost:3002",
       "scope": "deposit",
       "module": "./Module",
+      "name": "deposit",
       "icon": "AccountBalanceWalletOutlined",
       "title": "سپرده",
       "id": "d8e4"
@@ -39,6 +41,13 @@
       "family": "taherian",
       "nationalCode": "543219876",
       "id": "c6fc"
+    },
+    {
+      "id": "0ace",
+      "name": "احسان",
+      "family": "خدادادی",
+      "nationalCode": "55667788",
+      "customerNumber": 941
     }
   ]
 }
