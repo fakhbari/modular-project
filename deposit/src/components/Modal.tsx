@@ -96,8 +96,8 @@ export default function DepositModal(props:IProps) {
             onChange={handleChange}
             fullWidth={true}
           >
-            {customers && customers.map((customer:customersType) => {
-              return <MenuItem value={customer.customerNumber}>{customer.customerNumber}</MenuItem>
+            {customers && customers.map((customer:customersType, index:number) => {
+              return <MenuItem value={customer.customerNumber} key={index}>{customer.customerNumber}</MenuItem>
             })}
           </Select>
         </FormControl>

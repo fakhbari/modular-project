@@ -52,8 +52,8 @@ function CustomizedTables() {
               سپرده
             </Typography>
             <Tooltip title="اضافه کردن سپرده جدید">
-              <IconButton>
-                <AddIcon onClick={()=>{setOpen(true)}}/>
+              <IconButton onClick={()=>{setOpen(true)}}>
+                <AddIcon/>
               </IconButton>
             </Tooltip>
           </Toolbar>
